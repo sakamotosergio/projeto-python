@@ -34,4 +34,4 @@ elif computador == 2:
     elif jogador == 2:
         print('EMPATOU')
 else:
-    print('JOGADA INVÁLIDA')
+    print('não pode fazer isso otario')
