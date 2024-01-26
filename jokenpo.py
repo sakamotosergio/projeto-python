@@ -1,10 +1,7 @@
 from random import randint
 
 itens = ('Pedra', 'Papel', 'Tesoura')
-print('''escolha:
-      [0] Pedra
-      [1] Papel
-      [2] Tesoura''')
+print('escolha:', '[0] Pedra', '[1] Papel', '[2] Tesoura', sep = '\n')
 
 computador = randint(0,2)
 jogador = int(input('faça sua jogada '))
